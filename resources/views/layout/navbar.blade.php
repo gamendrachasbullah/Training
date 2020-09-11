@@ -24,7 +24,7 @@
             </ul>
           </li>
           <li><a href="{{url('trainers')}}">Trainers</a></li>
-          <li class="drop-down"><a href="{{url('event')}}">Event</a>
+          <li class="drop-down"><a href="{{url('events')}}">Event</a>
             <ul>
               <li><a href="#">Seminar</a></li>
               <li><a href="#">Gathering</a></li>

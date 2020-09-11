@@ -1,7 +1,7 @@
 <?php
 
 Route::get('/', function () {
-    return view('layout.master');
+    return view('layout/master');
 });
 
 Route::get('silver', function () {
