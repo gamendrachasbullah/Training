@@ -40,4 +40,19 @@ Route::get('contact', function () {
     return view('contact');
 });
 
+Route::get('afi', function () {
+    return view('biodata.biodata_afi');
+});
+
+Route::get('weny', function () {
+    return view('biodata.biodata_weny');
+});
+
+Route::get('sigit', function () {
+    return view('biodata.biodata_sigit');
+});
+
+Route::get('email','SendMailController@index');
+Route::post('email/send','SendMailController@send');
+
 // Route::get('/contact', 'ContactUsFormController@createForm');

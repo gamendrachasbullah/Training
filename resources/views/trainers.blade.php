@@ -20,7 +20,7 @@
             <div class="member">
               <img src="{{('style/assets/img/trainers/trainer-1.jpg')}}" class="img-fluid" alt="">
               <div class="member-content">
-                <h4>Walter White</h4>
+                <h4><a href="{{url('afi')}}">Afrizal Luthfi Lisdianta</a></h4>
                 <span>Web Development</span>
                 <p>
                   Magni qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat qui aut aut aut
@@ -39,7 +39,7 @@
             <div class="member">
               <img src="{{('style/assets/img/trainers/trainer-2.jpg')}}" class="img-fluid" alt="">
               <div class="member-content">
-                <h4>Sarah Jhinson</h4>
+              <h4><a href="{{url('weni')}}">Wenitya Nugraheni</a></h4>
                 <span>Marketing</span>
                 <p>
                   Repellat fugiat adipisci nemo illum nesciunt voluptas repellendus. In architecto rerum rerum temporibus
@@ -58,7 +58,7 @@
             <div class="member">
               <img src="{{('style/assets/img/trainers/trainer-3.jpg')}}" class="img-fluid" alt="">
               <div class="member-content">
-                <h4>William Anderson</h4>
+               <h4><a href="{{url('sigit')}}">Sigit Wibisono</a></h4>
                 <span>Content</span>
                 <p>
                   Voluptas necessitatibus occaecati quia. Earum totam consequuntur qui porro et laborum toro des clara

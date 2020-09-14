@@ -41,7 +41,7 @@
     </section><!-- End About Section -->
 
     <!-- ======= Counts Section ======= -->
-    <section id="counts" class="counts section-bg">
+    <!-- <section id="counts" class="counts section-bg">
       <div class="container">
 
         <div class="row counters">
@@ -69,7 +69,9 @@
         </div>
 
       </div>
-    </section><!-- End Counts Section -->
+    </section> -->
+    
+    <!-- End Counts Section -->
 
     <!-- ======= Testimonials Section ======= -->
     <section id="testimonials" class="testimonials">
@@ -77,7 +79,7 @@
 
         <div class="section-title">
           <h2>Testimonials</h2>
-          <p>What are they saying</p>
+          <p>Apa Kata Mereka ?</p>
         </div>
 
         <div class="owl-carousel testimonials-carousel" data-aos="zoom-in" data-aos-delay="100">

@@ -2,8 +2,8 @@
 <body>
 @include('layout.navbar')
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top">
+ <!-- ======= Header ======= -->
+ <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
 
       <h1 class="logo mr-auto"><a href="/">STARHACK</a></h1>
@@ -13,22 +13,22 @@
       <nav class="nav-menu d-none d-lg-block">
         <ul>
           <li class="active"><a href="/">Beranda</a></li>
-          <li class="drop-down"><a href="/about">Tentang Kami</a>
+          <li class="drop-down"><a href="{{url('about')}}">Tentang Kami</a>
             <ul>
               <li><a href="http://www.star-indonesia.id/">PT STAR Software Indonesia</a></li>
               <li><a href="#">STAR Translator Hack</a></li>
             </ul>
           </li>
-          <li class="drop-down"><a href="/courses">Kursus</a>
-            <ul>
-              <li><a href="/courses/course-silvRer">Silver Hack</a></li>
-              <li><a href="/courses/course-gold">Gold Hack</a></li>
-              <li><a href="/courses/course-diamond">Diamond Hack</a></li>
-              <li><a href="/courses/course-star">Star Hack</a></li>
+          <li class="drop-down"><a href="{{url('courses')}}">Kursus</a>
+             <ul>
+              <li><a href="{{url('silver')}}">Silver Hack</a></li>
+              <li><a href="{{url('gold')}}">Gold Hack</a></li>
+              <li><a href="{{url('diamond')}}">Diamond Hack</a></li>
+              <li><a href="{{url('star')}}">Star Hack</a></li>
             </ul>
           </li>
-          <li><a href="/trainers">Trainers</a></li>
-          <li class="drop-down"><a href="/events">Event</a>
+          <li><a href="{{url('trainers')}}">Trainers</a></li>
+          <li class="drop-down"><a href="{{url('events')}}">Event</a>
             <ul>
               <li><a href="#">Seminar</a></li>
               <li><a href="#">Gathering</a></li>
@@ -39,8 +39,7 @@
               <li><a href="#">Trainer</a></li>
             </ul>
           </li>
-          <li><a href="/contact">Kontak</a></li>
-
+          <li><a href="{{url('contact')}}">Kontak</a></li>
         </ul>
       </nav><!-- .nav-menu -->
     </div>
@@ -113,6 +112,80 @@
       </div>
     </section><!-- End Counts Section -->
 
+ <!-- ======= Testimonials Section ======= -->
+ <section id="testimonials" class="testimonials">
+      <div class="container" data-aos="fade-up">
+        <div class="owl-carousel testimonials-carousel" data-aos="zoom-in" data-aos-delay="100">
+
+          <div class="testimonial-wrap">
+            <div class="testimonial-item">
+              <img src="{{('./style/assets/img/testimonials/testimonials-1.jpg')}}" class="testimonial-img" alt="">
+              <h3>Saul Goodman</h3>
+              <h4>Ceo &amp; Founder</h4>
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+            </div>
+          </div>
+
+          <div class="testimonial-wrap">
+            <div class="testimonial-item">
+              <img src="{{('./style/assets/img/testimonials/testimonials-2.jpg')}}" class="testimonial-img" alt="">
+              <h3>Sara Wilsson</h3>
+              <h4>Designer</h4>
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+            </div>
+          </div>
+
+          <div class="testimonial-wrap">
+            <div class="testimonial-item">
+              <img src="{{('./style/assets/img/testimonials/testimonials-3.jpg')}}" class="testimonial-img" alt="">
+              <h3>Jena Karlis</h3>
+              <h4>Store Owner</h4>
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+            </div>
+          </div>
+
+          <div class="testimonial-wrap">
+            <div class="testimonial-item">
+              <img src="{{('./style/assets/img/testimonials/testimonials-4.jpg')}}" class="testimonial-img" alt="">
+              <h3>Matt Brandon</h3>
+              <h4>Freelancer</h4>
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+            </div>
+          </div>
+
+          <div class="testimonial-wrap">
+            <div class="testimonial-item">
+              <img src="{{('./style/assets/img/testimonials/testimonials-5.jpg')}}" class="testimonial-img" alt="">
+              <h3>John Larson</h3>
+              <h4>Entrepreneur</h4>
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
     <!-- ======= Why Us Section ======= -->
     <section id="why-us" class="why-us">
       <div class="container" data-aos="fade-up">
@@ -390,7 +463,7 @@
             <div class="member">
               <img src="{{('style/assets/img/trainers/trainer-1.jpg')}}" class="img-fluid" alt="">
               <div class="member-content">
-                <h4>Afrizal Lisdianta</h4>
+                <h4><a href="{{url('afi')}}">Afrizal Lisdianta</a> </h4>
                 <span>Web Development</span>
                 <p>
                   Magni qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat qui aut aut aut
@@ -409,7 +482,7 @@
             <div class="member">
               <img src="{{('style/assets/img/trainers/trainer-2.jpg')}}" class="img-fluid" alt="">
               <div class="member-content">
-                <h4>Wenitya Nugraheni</h4>
+                <h4><a href="{{url('weny')}}">Wenitya Nugraheni</a></h4>
                 <span>Marketing</span>
                 <p>
                   Repellat fugiat adipisci nemo illum nesciunt voluptas repellendus. In architecto rerum rerum temporibus
@@ -428,7 +501,7 @@
             <div class="member">
               <img src="{{('style/assets/img/trainers/trainer-3.jpg')}}" class="img-fluid" alt="">
               <div class="member-content">
-                <h4>Sigit Wibisono</h4>
+                 <h4><a href="{{url('sigit')}}">Sigit Wibisono</a></h4>
                 <span>Content</span>
                 <p>
                   Voluptas necessitatibus occaecati quia. Earum totam consequuntur qui porro et laborum toro des clara

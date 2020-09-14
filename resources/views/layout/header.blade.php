@@ -28,8 +28,6 @@
   <!-- Template Main CSS File -->
   <link href="{{asset('style/assets/css/style.css')}}" rel="stylesheet">
 
-
-
   <!-- Vendor JS Files -->
   <script src="{{asset('style/assets/vendor/jquery/jquery.min.js')}}"></script>
   <script src="{{asset('style/assets/vendor/jquery.easing/jquery.easing.min.js')}}"></script>
