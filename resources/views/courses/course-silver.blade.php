@@ -3,39 +3,45 @@
 @include('layout.navbar')
   <main id="main">
     <!-- ======= Cource Details Section ======= -->
-    <section id="course-details" class="course-details">
+    <section id="course-details" class="course-details" style="margin-bottom:100px;">
       <div class="container" data-aos="fade-up">
 
         <div class="row" style="margin-top:40px;">
           <div class="col-lg-8">
-            <img src="{{('../style/assets/img/course-details.jpg')}}" class="img-fluid" alt="">
+            <iframe width="100%" height="350px" src="https://www.youtube.com/embed/zmiGFpgdymM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <h3>Paket Hack Silver</h3>
             <p>
-              Qui et explicabo voluptatem et ab qui vero et voluptas. Sint voluptates temporibus quam autem. Atque nostrum voluptatum laudantium a doloremque enim et ut dicta. Nostrum ducimus est iure minima totam doloribus nisi ullam deserunt. Corporis aut officiis sit nihil est. Labore aut sapiente aperiam.
-              Qui voluptas qui vero ipsum ea voluptatem. Omnis et est. Voluptatem officia voluptatem adipisci et iusto provident doloremque consequatur. Quia et porro est. Et qui corrupti laudantium ipsa.
-              Eum quasi saepe aperiam qui delectus quaerat in. Vitae mollitia ipsa quam. Ipsa aut qui numquam eum iste est dolorum. Rem voluptas ut sit ut.
+              Jika Anda ingin menjadi penerjemah pemula, bahkan belum memiliki kemampuan 
+              dasar sebagai seorang penerjemah, SILVER HACK adalah course paling tepat untuk Anda.
             </p>
+            <p>Sesi Silver Hack terdiri dari:</p>
+            <ul>
+              <li>Sesi reading (membaca)</li>
+              <li>Sesi pemahaman konsep</li>
+              <li>Sesi presentasi konsep</li>
+              <li>Sesi penerjemahan dasar</li>
+            </ul>
           </div>
           <div class="col-lg-4">
 
             <div class="course-info d-flex justify-content-between align-items-center">
               <h5>Trainer</h5>
-              <p><a href="#">Walter White</a></p>
+              <p><a href="#">Afrizal Lisdianta</a></p>
             </div>
 
             <div class="course-info d-flex justify-content-between align-items-center">
-              <h5>Course Fee</h5>
-              <p>$165</p>
+              <h5>Harga</h5>
+              <p>IDR 1.000.000</p>
             </div>
 
             <div class="course-info d-flex justify-content-between align-items-center">
-              <h5>Available Seats</h5>
-              <p>30</p>
+              <h5>Slot</h5>
+              <p>15</p>
             </div>
 
             <div class="course-info d-flex justify-content-between align-items-center">
-              <h5>Schedule</h5>
-              <p>5.00 pm - 7.00 pm</p>
+              <h5>Jadwal</h5>
+              <p>Via Online</p>
             </div>
             <a href="{{url('form')}}" class="daftar-btn"><b>DAFTAR</b></a>
           </div>

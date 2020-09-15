@@ -6,9 +6,9 @@
  <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
 
-      <h1 class="logo mr-auto"><a href="/">STARHACK</a></h1>
+      {{-- <h1 class="logo mr-auto"><a href="/">STARHACK</a></h1> --}}
       <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      <a href="{{ url('/') }}" class="logo mr-auto"><img src="{{ asset('style/assets/img/logo.png') }}" alt="" class="img-fluid"></a>
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
@@ -67,12 +67,12 @@
 
         <div class="row">
           <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
-          <iframe width="560" height="350" src="https://www.youtube.com/embed/zmiGFpgdymM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="100%" height="350" src="https://www.youtube.com/embed/zmiGFpgdymM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
-            <h3>STAR TRANSLATOR HACK</h3>
+            <h3>STAR TRANSLATION HACK</h3>
             <p class="font-italic">
-              STAR Translator Hack adalah salah satu unit bisnis pelatihan penerjemahan dari PT STAR Software Indonesia 
+              STAR Translation Hack adalah salah satu unit bisnis pelatihan penerjemahan dari PT STAR Software Indonesia 
               (www.star-indonesia.id) yang merupakan anggota dari STAR Group AG (www.star-group.net).
             </p>
             <p style="text-align: justify;">
@@ -193,9 +193,9 @@
         <div class="row">
           <div class="col-lg-4 d-flex align-items-stretch">
             <div class="content">
-              <h3>Mengapa STAR Translator Hack?</h3>
+              <h3>Mengapa STAR Translation Hack?</h3>
               <p>
-                STAR Translator Hack menawarkan pelatihan dengan konsep berbeda. Kami menawarkan paket pelatihan
+                STAR Translation Hack menawarkan pelatihan dengan konsep berbeda. Kami menawarkan paket pelatihan
                 lengkap untuk seorang non-penerjemah yang ingin menjadi penerjemah hingga memandu dan membantu Anda
                 untuk mendapatkan klien.
               </p>
@@ -340,10 +340,10 @@
                   <p class="price">$169</p>
                 </div>
 
-                <h3><a href="/courses/course-silver">Silver Hack</a></h3>
+                <h3><a href="{{url('silver')}}">Silver Hack</a></h3>
                 <p>Jika Anda ingin menjadi penerjemah pemula, bahkan belum memiliki kemampuan 
                   dasar sebagai seorang penerjemah, SILVER HACK adalah course paling tepat untuk Anda.</p>
-                  <p><a href="/courses/course-silver" style="text-align:justify;">Lihat Kursus</a></p>
+                  <p><a href="{{url('silver')}}" style="text-align:justify;">Lihat Kursus</a></p>
                 <!-- <div class="trainer d-flex justify-content-between align-items-center">
                   <div class="trainer-profile d-flex align-items-center">
                     <img src="{{('style/assets/img/trainers/trainer-1.jpg')}}" class="img-fluid" alt="">
@@ -368,10 +368,10 @@
                   <p class="price">$250</p>
                 </div>
 
-                <h3><a href="/courses/course-gold">Gold Hack</a></h3>
+                <h3><a href="{{url('gold')}}">Gold Hack</a></h3>
                 <p>Untuk Anda para penerjemah yang ingin mendalami lagi teknik dasar dan 
                   teknik lanjutan dalam penerjemahan, GOLD Hack adalah paket yang direkomendasikan untuk Anda.</p>
-                  <p><a href="/courses/course-gold" style="text-align:justify;">Lihat Kursus</a></p>
+                  <p><a href="{{url('gold')}}" style="text-align:justify;">Lihat Kursus</a></p>
                 <!-- <div class="trainer d-flex justify-content-between align-items-center">
                   <div class="trainer-profile d-flex align-items-center">
                     <img src="{{('style/assets/img/trainers/trainer-2.jpg')}}" class="img-fluid" alt="">
@@ -396,10 +396,10 @@
                   <p class="price">$180</p>
                 </div>
 
-                <h3><a href="/courses/course-diamond">Diamond Hack</a></h3>
+                <h3><a href="{{url('diamond')}}">Diamond Hack</a></h3>
                 <p style="text-align: justify;">Untuk Anda para penerjemah yang ingin menguasai teknik penerjemahan bidang tertentu 
                   seperti IT, Gaming, Medical, Legal dan lain-lain, Diamond Hack wajib Anda ikuti.</p>
-                  <p><a href="/courses/course-diamond" style="text-align:justify;">Lihat Kursus</a></p>
+                  <p><a href="{{url('diamond')}}" style="text-align:justify;">Lihat Kursus</a></p>
 
                 <!-- <div class="trainer d-flex justify-content-between align-items-center">
                   <div class="trainer-profile d-flex align-items-center">
@@ -426,10 +426,10 @@
                   <p class="price">$180</p>
                 </div>
 
-                <h3><a href="/courses/course-diamond">Star Hack</a></h3>
+                <h3><a href="{{url('star')}}">Star Hack</a></h3>
                 <p>Jangan ambil course ini jika Anda tidak berani investasi lebih untuk kesuksesan besar di masa depan. Jika Anda seorang penerjemah 
                   namun masih kesulitan mendapatkan klien, terutama</p>
-                  <p><a href="/courses/course-diamond" style="text-align:justify;">Lihat Kursus</a></p>
+                  <p><a href="{{url('star')}}" style="text-align:justify;">Lihat Kursus</a></p>
                 <!-- <div class="trainer d-flex justify-content-between align-items-center">
                   <div class="trainer-profile d-flex align-items-center">
                     <img src="{{('style/assets/img/trainers/trainer-3.jpg')}}" class="img-fluid" alt="">

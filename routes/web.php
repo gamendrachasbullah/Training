@@ -36,9 +36,7 @@ Route::get('about', function () {
 Route::get('form', function () {
     return view('form');
 });
-Route::get('contact', function () {
-    return view('contact');
-});
+
 
 Route::get('afi', function () {
     return view('biodata.biodata_afi');
@@ -52,7 +50,8 @@ Route::get('sigit', function () {
     return view('biodata.biodata_sigit');
 });
 
-Route::get('email','SendMailController@index');
-Route::post('email/send','SendMailController@send');
+Route::get('/contact','ContactController@contact');
+
+Route::post('/contact','ContactController@contactSubmit')->name('contact.submit');
 
 // Route::get('/contact', 'ContactUsFormController@createForm');

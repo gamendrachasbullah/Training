@@ -8,34 +8,53 @@
 
         <div class="row" style="margin-top:40px;">
           <div class="col-lg-8">
-            <img src="{{('../style/assets/img/course-details.jpg')}}" class="img-fluid" alt="">
+            <iframe width="100%" height="360" src="https://www.youtube.com/embed/zmiGFpgdymM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <h3>Paket Hack Diamond</h3>
             <p>
-              Qui et explicabo voluptatem et ab qui vero et voluptas. Sint voluptates temporibus quam autem. Atque nostrum voluptatum laudantium a doloremque enim et ut dicta. Nostrum ducimus est iure minima totam doloribus nisi ullam deserunt. Corporis aut officiis sit nihil est. Labore aut sapiente aperiam.
-              Qui voluptas qui vero ipsum ea voluptatem. Omnis et est. Voluptatem officia voluptatem adipisci et iusto provident doloremque consequatur. Quia et porro est. Et qui corrupti laudantium ipsa.
-              Eum quasi saepe aperiam qui delectus quaerat in. Vitae mollitia ipsa quam. Ipsa aut qui numquam eum iste est dolorum. Rem voluptas ut sit ut.
+              Untuk Anda para penerjemah yang ingin menguasai teknik penerjemahan bidang tertentu 
+              seperti IT, Gaming, Medical, Legal dan banyak lainnya, DIAMOND Hack wajib Anda ikuti. <br>
+              Sesi Diamond Hack terdiri dari Basic Diamond Hack dan Premium Diamond Hack.
             </p>
+            <p>Basic Diamond Hack terdiri dari:</p>
+            <ul>
+              <li>Penerjemahan bidang IT</li>
+              <li> Penerjemahan bidang Gaming</li>
+              <li>Penerjemahan bidang Marketing</li>
+              <li>Penerjemahan bidang Legal</li>
+              <li>Penerjemahan bidang Patent</li>
+              <li>Penerjemahan bidang Automotive</li>
+            </ul>
+            <p>Premium Diamond Hack memiliki sesi yang sama 
+              dengan Basic Diamond Hack namun terdapat benefit tambahan yaitu</p>
+              <ul>
+                <li>Tes Sertifikasi kemampuan penerjemahan tingkat dasar</li>
+                <li>Tes Sertifikasi kemampuan penerjemahan tingkat lanjut </li>
+              </ul>
           </div>
           <div class="col-lg-4">
 
             <div class="course-info d-flex justify-content-between align-items-center">
               <h5>Trainer</h5>
-              <p><a href="#">Walter White</a></p>
+              <p><a href="#">Afrizal Lisdianta</a></p>
             </div>
 
             <div class="course-info d-flex justify-content-between align-items-center">
-              <h5>Course Fee</h5>
-              <p>$165</p>
+              <h5>Harga Basic</h5>
+              <p>IDR 3,000,000</p>
+            </div>
+            <div class="course-info d-flex justify-content-between align-items-center">
+              <h5>Harga Premium</h5>
+              <p>IDR 5,000,000</p>
             </div>
 
             <div class="course-info d-flex justify-content-between align-items-center">
-              <h5>Available Seats</h5>
-              <p>30</p>
+              <h5>Slot</h5>
+              <p>15</p>
             </div>
 
             <div class="course-info d-flex justify-content-between align-items-center">
-              <h5>Schedule</h5>
-              <p>5.00 pm - 7.00 pm</p>
+              <h5>Jadwal</h5>
+              <p>Via Online</p>
             </div>
             <a href="{{url('form')}}" class="daftar-btn"><b>DAFTAR</b></a>
           </div>

@@ -8,34 +8,41 @@
 
         <div class="row" style="margin-top:40px;">
           <div class="col-lg-8">
-            <img src="{{('../style/assets/img/course-details.jpg')}}" class="img-fluid" alt="">
+            <iframe width="100%" height="350" src="https://www.youtube.com/embed/zmiGFpgdymM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <h3>Paket Hack Gold</h3>
             <p>
-              Qui et explicabo voluptatem et ab qui vero et voluptas. Sint voluptates temporibus quam autem. Atque nostrum voluptatum laudantium a doloremque enim et ut dicta. Nostrum ducimus est iure minima totam doloribus nisi ullam deserunt. Corporis aut officiis sit nihil est. Labore aut sapiente aperiam.
-              Qui voluptas qui vero ipsum ea voluptatem. Omnis et est. Voluptatem officia voluptatem adipisci et iusto provident doloremque consequatur. Quia et porro est. Et qui corrupti laudantium ipsa.
-              Eum quasi saepe aperiam qui delectus quaerat in. Vitae mollitia ipsa quam. Ipsa aut qui numquam eum iste est dolorum. Rem voluptas ut sit ut.
+              Untuk Anda para penerjemah yang ingin mendalami lagi teknik dasar 
+              dan teknik lanjutan dalam penerjemahan, GOLD Hack direkomendasikan untuk Anda.
             </p>
+            <p>Sesi Gold Hack terdiri dari:</p>
+            <ul>
+              <li>Sesi penerjemahan tingkat dasar</li>
+              <li>Sesi peningkatan akurasi dalam penerjemahan</li>
+              <li>Sesi peningkatan fluency dalam penerjemahan</li>
+              <li>Sesi pemahaman terminologi dalam penerjemahan</li>
+              <li>Sesi styling dalam penerjemahan</li>
+            </ul>
           </div>
           <div class="col-lg-4">
 
             <div class="course-info d-flex justify-content-between align-items-center">
               <h5>Trainer</h5>
-              <p><a href="#">Walter White</a></p>
+              <p><a href="#"> Sigit Wibisono</a></p>
             </div>
 
             <div class="course-info d-flex justify-content-between align-items-center">
-              <h5>Course Fee</h5>
-              <p>$165</p>
+              <h5>Harga</h5>
+              <p>IDR 2,000,000</p>
             </div>
 
             <div class="course-info d-flex justify-content-between align-items-center">
-              <h5>Available Seats</h5>
-              <p>30</p>
+              <h5>Slot</h5>
+              <p>15</p>
             </div>
 
             <div class="course-info d-flex justify-content-between align-items-center">
-              <h5>Schedule</h5>
-              <p>5.00 pm - 7.00 pm</p>
+              <h5>Jadwal</h5>
+              <p>Via Online</p>
             </div>
             <a href="{{url('form')}}" class="daftar-btn"><b>DAFTAR</b></a>
           </div>
@@ -45,7 +52,7 @@
     </section><!-- End Cource Details Section -->
 
     <!-- ======= Cource Details Tabs Section ======= -->
-    <section id="cource-details-tabs" class="cource-details-tabs">
+    <section id="cource-details-tabs" class="cource-details-tabs" style="margin-top:20px;">
       <div class="container" data-aos="fade-up">
 
         <div class="row">
